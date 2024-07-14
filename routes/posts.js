@@ -29,4 +29,8 @@ router.get('/', (req, res) => {
     }
   })
 
-export default posts;
+  router.post('/', (req, res) => {
+    
+  })
+
+export default router;
